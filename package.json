@@ -1,6 +1,7 @@
 {
   "name": "whatsapp-clone",
   "version": "0.1.0",
+  "homepage": "https://bharathjinka09.github.io/whatsapp-clone",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
@@ -15,6 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
